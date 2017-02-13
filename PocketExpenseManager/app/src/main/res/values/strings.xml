@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Pocket Expense Manager</string>
+    <string name="btnaddexpense">Add Expense</string>
+    <string name="btneditexpense">Edit Expense</string>
+    <string name="btndeleteexpense">Delete Expense</string>
+    <string name="btnshowexpenses">Show Expenses</string>
+    <string name="btnfinish">Finish</string>
+    <string name="txt1">Add An Expense</string>
+    <string name="txt2">Expense Name:</string>
+    <string name="txt3">Category:</string>
+    <string name="txt4">Amount:</string>
+    <string name="txt5">Date:</string>
+    <string name="txt6">Receipt:</string>
+    <string name="btnselectexpense">Select Expense</string>
+    <string name="btnsave">Save</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btndelete">Delete</string>
+    <string name="txt7">Expense Details</string>
+    <string name="txt8">Name:</string>
+    <string-array name="categories_array">
+        <item>Select a category</item>
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="months_array">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="years_array">
+        <item>Year</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

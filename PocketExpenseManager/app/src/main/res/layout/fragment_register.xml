@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.PocketExpenseManager.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtboxname"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="165dp"
+        android:hint="Enter First Name"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtboxemail"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="200dp"
+        android:hint="Enter Email Address"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtboxpassword"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="240dp"
+        android:hint="Create Password"/>
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtboxconfirmpassword"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="280dp"
+        android:hint="Confirm Password"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btncancel"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btnregister"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView9"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/savemoney" />
+</FrameLayout>
