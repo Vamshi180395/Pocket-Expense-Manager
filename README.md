@@ -1,0 +1,2 @@
+# Pocket-Expense-Manager
+ Developed an android mobile application that keeps a record of all the expenses of an individual. An individual need to sign up and create his/her account to use the services of the application. Using his/her credentials a user can add/delete/edit and view all their expenses. Each expense may even be associated with an expense receipt. The app will also give an expense summary of every month’s expenses in the form of a pie chart.    
